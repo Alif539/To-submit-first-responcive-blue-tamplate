@@ -1,0 +1,1080 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{font-family: 'Poppins', sans-serif;}
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 39px;color: #242f51;}
+p{ font-size: 12px; color: #242f51;}
+h2{font-size: 35px;color: #242f51;}
+h4{font-size: 24px;color: #242f51;}
+ul li{list-style: none;display: inline-block;}
+ul li a{text-decoration: none ; font-size: 12px; color: #242f51; }
+a{text-decoration: none;font-size: 12px;}
+/* img{width: 100%;} */
+.WidthHundread{width: 100%;}
+.widthFifty{width:45%;margin-left: 2.5% ;margin-right: 2.5%;}
+.widthThirty{width: 30%;margin-left: 1.5% ;margin-right: 1.5%;}
+.widthTwentyfive{width:22%;margin-left: 1.5% ;margin-right: 1.5%;}
+/* global css ends here */
+
+/* sizing css starts here */
+.container{width: 100%;margin:0 auto;}
+.structure{width: 70%;margin:0 auto;}
+/* sizing css ends here */
+
+/* header section srarts here */
+.headerArea {
+    position: relative;
+    z-index: 1;
+}
+.headerArea::before {
+    content: '';
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    z-index: -1;
+    background-image: url('images/headerBuildingBg.png');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+}
+.headerDottedBg{
+    position: relative;
+    z-index: 1;
+}
+.headerDottedBg::before{
+    content: '';
+    position: absolute;
+    height: 77%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(images/headerDottedBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 43px;
+    left: 0px;
+}
+
+
+
+.navbar {
+    padding: 70px 90px 36px 90px;
+}
+.logo {
+    width: 36%;
+}
+.logoIMg {
+    width: 80%;
+    margin-left: 65px;
+}
+.navMenu { 
+    width: 48%;
+}
+.navMenu ul{ text-align: right;}
+.navMenu ul li{}
+.navMenu ul li a {
+    margin: 0px 10px 0px 10px;
+    color: #242f51;
+    font-weight: 600;
+}
+.navMenu ul li a:hover {
+    color: #feaa25;
+}
+
+.tryForFreeBtn {
+    width: 15%;
+    padding: 3px 0px 4px 0px;
+}
+.tryForFreeBtn a {
+    padding: 9px 22px;
+    background-color: #2500f9;
+    color: #ffffff;
+    border-radius: 23px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.tryForFreeBtn a:hover{
+     box-shadow: 0px 0px 15px #9d9d9d;
+}
+/* -------/-------- */
+.bannerArea{
+    padding: 0px 0px 50px 0px;
+ 
+}
+.baneerHeading {
+    position: relative;
+    margin-top: 145px;
+    margin-left: 37px;
+}
+
+.headerAward {
+    background-color: #e2eaed;
+    padding: 2px 2px 3px 32px;
+    border-radius: 35px;
+    width: 83%;
+}
+.rewarfLogo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: none;
+    width: 9%;
+    display: inline-block;
+}
+.rewardText{
+    color: #242f51;
+    font-size: 13px;
+    font-weight: 600;
+}
+.BannerHeadText {
+    margin-bottom: 20px;
+}
+.BannerHeadText h1{
+    color: #242f51;
+    font-size: 33px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+.BannerHeadText p{
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.bannerButtons {
+    
+}
+.b_bUtton {
+    color: #2500f9;
+    font-size: 12px;
+    padding: 9px 22px;
+    font-weight: 600;
+    border-radius: 23px;
+}
+.b_bUtton:hover ,.bannerBtnActive {
+    padding: 9px 22px;
+    background-color: #2500f9;
+    color: #ffffff;
+    border-radius: 23px;
+    font-size: 12px;
+    transition: all .3s ease-in;
+    box-shadow: 0px 0px 15px #9d9d9d;
+}
+
+.bannerImg {
+
+    width: 40%;
+    padding: 10px 0px 0px 0px;
+}
+
+.bannerImage {
+    
+    width: 83%;
+    margin-left: 53px;
+    box-shadow: 0px -1px 2px #e0e1e1;
+    border-radius: 36px;
+}
+.bannerImage img{
+    width: 100%;
+    border-radius:36px;
+}
+/* header section sends here */
+/* <!-- trusted company section starts here --> */
+    .TrustedCompanySection {
+    text-align: center;
+    padding: 0px 0pc 50px 0px;
+    }
+    .trustedHeading{
+           margin-top: 50px;
+           margin-bottom: 20px;
+    }
+    .trustedHeading a{
+        color: #242f51;
+        font-weight: 200;
+    }
+    .TrustedCompanies{
+
+    }
+
+    .companiLogos {
+        width: 15%;
+        padding: 3px 7px 2px 7px;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    
+    .companiLogos img{
+
+    } 
+/* <!-- trusted company section ends here --> */
+
+/* Awsome App Fetures start here */
+.AwsomeAppsFeturesArea {
+
+}
+
+.AwsomeAppIMg {
+}
+
+.appSectionMainIMg {
+    width: 40%;
+    margin: 0px 0px 0px 80px;
+}
+.toResizeAppSectionImg {
+    border-radius: 26px;
+    width: 100%;
+    /* clip-path: polygon(3% 14%, 63% 3%, 94% 85%, 34% 95%); */
+}
+.toResizeAppSectionImg img{
+    width: 100%;
+    border-radius: 26px;
+}
+
+.awsomeAppTexts {
+    width: 42%;
+    margin: 0px 92px 0px 0px;
+}
+
+.AwSmhone {
+    width: 50%;
+    margin-bottom: 8px;
+}
+.AwSmhone h4{
+    font-size: 21px;
+    font-weight: 700;
+}
+.AwSmoneP {
+    width: 65%;
+    line-height: 17px;
+    font-weight: 100;
+}
+.appPortfolio{
+    margin: 30px 0px 30px 0px;
+}
+
+.fetursLogo {
+    width: 14%;
+}
+.appDescription {
+    width: 50%;
+}
+
+.appDescriptionHead {
+}
+.appDescriptionHead a{
+
+}
+.appDescriptionHead p{
+   
+    opacity: 0.6;
+}
+
+
+/* Awsome App Fetures ends here */
+/* jackpot section starts here  */
+
+.jackpotArea{
+    padding: 50px 0px 50px 0px;
+}
+.JackpotHoneSection {
+    width: 36%;
+    margin-left: 80px;
+    border-right: 1px solid #e0e1e1;
+}
+.jakpotHone {
+    width: 96%;
+}
+.jakpotHone h1{
+    font-size: 22px;
+}
+
+.jackpotDescription {
+    width: 40%;
+    margin-left: 20px;
+}
+.jackpotDescription p{
+     opacity: 0.6;
+}
+
+/* jackpot section ends here  */
+/* auto Pay section starts here */
+.payOutDIvs{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.appDescriptionHeadCpy {
+   
+  }
+  
+  .appPortfolioCpy.widthThirty {
+    margin: 0px 39px 0px 30px;
+    width: 23%;
+}
+  
+  .fetursLogo {
+      margin-bottom: 15px;
+  }
+  
+  .appDescriptionCpy {
+  }
+  
+  .appDescriptionHeadCpy {
+  }
+  .appDescriptionHeadCpy a{
+      font-weight: 600;
+  }
+  .appDescriptionHeadCpy p{
+       opacity: 0.6;
+      margin-top: 7px;
+  }
+/* auto Pay section ends here */
+/* promo section starts here */
+.promoSection{
+}
+
+.promoIMageDiv{
+    width: 35%;
+    margin-left: 118px;
+}
+
+.Promodiv {
+}
+
+.PromoText {
+    margin-top: 69px;
+}
+
+.promoHone {
+    width: 48%;
+    margin-bottom: 15px;
+}
+.promoHone h1{
+    font-size: 19px;
+}
+.prormoParaGraph {
+    width: 69%;
+    margin-bottom: 30px;
+}
+.prormoParaGraph p{
+    font-size: 10px;
+    font-weight: 100;
+    opacity: 0.6;
+    
+}
+.promoBtn {
+}
+.promoBtn a{
+    padding: 9px 22px;
+    background-color: #2500f9;
+    color: #ffffff;
+    border-radius: 23px;
+    font-size: 12px;
+}
+.promoBtn a:hover{
+
+    transition: all .1s ease-in;
+    box-shadow: 0px 0px 15px #9d9d9d;
+}
+/* promo section ends here */
+/* <!-- why our app section starts here --> */
+.whyOurAppSection{
+    padding: 80px 0px 50px 0px;
+ 
+}
+
+.whyOurAppHeading {
+    text-align: center;
+}
+
+.ourAppHone {
+}
+.ourAppHone h1{
+    
+    font-size: 20px;
+}
+
+.ourAppPone {
+}
+.ourAppPone P{
+   
+    opacity: 0.6;
+}
+
+.ourAppSpecs {
+    margin: 28px 0px 28px 0px ;
+}
+
+.ourAppSpecsMiniBox {
+    text-align: center;
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.SpecsLogo {
+      width: 26%;
+      margin: 0 auto;
+}
+.SpecsLogo a{
+    text-decoration: none;
+   
+}
+.SpecsLogo a img{
+    width: 100%;
+}
+.ourAppSpecsMiniBox h4{
+    margin-bottom: 5px;
+}
+.ourAppSpecsMiniBox h4 a{
+   color: #242f51;
+}
+.ourAppSpecsMiniBox p{
+     font-weight: 100;
+     font-size: 10px;
+     opacity: 0.6;
+}
+/* <!-- why our app ends ends here --> */
+/* <!-- Ultimate fetures that we have build sections Starts --> */
+
+.ultimateFeturesSectons {
+        padding: 30px 0px 30px 0px;
+}
+
+.ultimateFeturesTextArea{
+    width: 42%;
+    margin-left: 14.5%;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.ultimateMainHeading {
+}
+
+.ultimateHone {
+    width: 40%;
+}
+.ultimateHone h1{
+        font-size: 20px;
+}
+
+.ultimatePone {
+    width: 55%;
+}
+.ultimatePone p{
+   font-size: 10px;
+   font-weight: 100;
+}
+.ultimateFeaturesMiniDivSection {
+}
+.ultimateAppfeturesCart {
+    margin: 19px 32px 10px 0px;
+    width: 40%;
+}
+.ultimateSpecsLogo {
+    width: 26%;
+}
+.ultimateSpecsLogo a img{
+    width: 100%;
+}
+.ultimateAppfeturesCart h4 {
+    margin-bottom: 8px;
+}
+.ultimateAppfeturesCart h4 a{
+    color: #242f51;
+}
+.ultimateAppfeturesCart p{ 
+    font-size: 10px;
+    font-weight: 100;
+    opacity: 0.6;
+}
+.ultimateAreaBtn a{
+    font-size: 9px;
+    padding: 7px 18px;
+}
+
+.ultimateFeturesBgImg {
+    width: 43%;
+    margin: 0px 0px 0px 0px;
+}
+
+.ResizableUltimateAreaBg {
+}
+.ResizableUltimateAreaBg  img{
+    width: 100%;
+}
+
+
+/* <!-- Ultimate fetures that we have build sections Ends --> */
+/* pricing Section Starts here */
+
+.pricingSection {
+    border-bottom: 1px solid #9d9d9d;
+    padding: 40px 0px 40px 0px;
+}
+
+.PricingDiv {
+}
+
+.PricingHeading {
+    text-align: center;
+}
+
+.pricingHone {
+    width: 40%;
+    margin: 15px auto;
+}
+.pricingHone h1{
+ font-size: 18px;
+}
+.pricingPone {
+    opacity: 0.6;
+}
+.pricingPone p{
+  font-size: 10px;
+}
+
+.timeDurationButtons {
+    margin: 20px auto;
+    padding: 3px 0px 7px 0px;
+    width: 23%;
+    border-radius: 13px;
+    box-shadow: 0px 0px 6px #9d9d9d;
+}
+.priceActive{
+
+}
+.Pbtn {
+    padding: 0px 0px ;
+  display: inline-block;
+ 
+}
+.Pbtn a{
+    
+    padding: 9px 22px;
+    font-size: 9px;
+    
+  border-radius: 23px;
+}
+.Pbtn a:hover {
+    background-color: #2500f9;
+    color: #ffffff;
+}
+
+.pricingCarts{
+    padding: 10px 0px;
+}
+
+.pCart{
+    width: 24%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 2px #9d9d9d;
+}
+
+.cartHeadingPart {
+    padding: 24px 0px 25px 0px;
+    background-color: #f7f9fa;
+    text-align: center;
+    box-shadow: 0px 0px 1px #9d9d9d;
+}
+.cartHeadingPart a{   
+     color: #242f51;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Dollar {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+}
+.DollerTExt{
+    display: inline-block;
+    font-size: 10px;
+    opacity: 0.6;
+}
+.CartExtantions {
+}
+
+.facelitiesSectionCart {
+    text-align: center;
+}
+.facelitiesSectionCart a{
+    text-decoration: none;
+    font-size: 9px;
+    color: #242f51;
+    opacity: 0.6;
+}
+.PriceCartDownBtn{
+    width: 90%;
+    margin: 30px auto;
+}
+.PriceCartDownBtn a{
+    background-color: #2500f9;
+    margin-left: 6px;
+    color: #ffffff;
+    border-radius: 24px;
+    padding: 11px 42px;
+    font-size: 9px;
+    box-shadow: 0px 0px 12px #9d9d9d;
+}
+.forSellOptions{
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+.forSellOptions a{
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color:#2500f9
+}
+.toMarginone {
+    margin: 0px 32px 0px 167px;
+}
+.toMarginTwo{
+    margin :0px 0px 0px 0px;
+}
+
+
+.cartFooterATBT {
+}
+/* pricing Section ends here */
+/* Cliant review Section Starts here */
+
+
+
+.cliantReviewSection {
+    padding: 70px 0px 50px 0px;
+    position:relative;
+   z-index:1
+}
+.cliantReviewSection::before{
+    content: '';
+    position: absolute;
+    height: 55%;
+    width: 47%;
+    z-index: -1;
+    background-image: url(images/ourCliantMapBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 60px;
+}
+.cliantSectionDiv {
+    padding: 50px 0px 50px 0px;
+}
+
+.cliantSectionHeading {
+    width: 50%;
+}
+
+.CliantRHone {
+    margin-bottom: 10px;
+    width: 70%;
+}
+.CliantRHone h1{
+       
+      font-size: 20px;
+}
+.CliantPRone {
+    margin-bottom: 18px;
+    width: 70%;
+}
+.CliantPRone p{
+    font-size: 10px;
+    opacity: 0.6;
+}
+
+.starsOfRating {
+    margin-bottom: 10px;
+    width: 23%;
+}
+.starsOfRating a img{
+   width: 100%;
+}
+
+.CliantRHFourone {
+    margin-bottom: 10px;
+}
+.CliantRHFourone h4{
+    font-size: 11px;
+}
+
+.CliantRpTwo {
+    margin-bottom: 10px;
+    width: 90%;
+}
+.CliantRpTwo p{
+    font-size: 10px;
+    opacity: 0.6;
+}
+.OurCeo {
+}
+
+.ceoImg {
+}
+
+.ceoPhoto {
+    width: 84%;
+}
+.ceoPhoto a img{
+    width: 100%;
+}
+.ceoInfo {
+    margin-left: 8px;
+}
+
+.ceaoNAme {
+}
+.ceaoNAme a{
+    font-size: 10px;
+    color: #242f51;
+}
+
+.ceaoDesignation {
+}
+.ceaoDesignation p{
+    font-size: 9px;
+    opacity: 0.6;
+}
+.SLiderArrow{
+    margin-top: 7px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg1 {
+    position: absolute;
+    top: 222px;
+    left: 14px;
+}
+
+.OneCliantPhoto {
+    width: 94%;
+    border-radius: 50%;
+}
+.OneCliantPhoto img:hover{
+      box-shadow: 0px 0px 5px black;
+      transform: rotate(6deg);
+    transition: all .3s ;
+}
+
+.OneCliantPhoto img{
+   width:100%; 
+   border-radius: 50%;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg2 {
+    position: absolute;
+    top: 287px;
+    left: 35px;
+}
+
+.TwoCliantPhoto {
+    width: 92%;
+    border-radius: 50%;
+}
+
+
+.TwoCliantPhoto img{
+    width: 100%;
+    border-radius: 50%;
+}
+.TwoCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(4deg);
+    transition: all .3s ;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg3 {
+    position: absolute;
+    top: 163px;
+    left: 115px;
+}
+
+.ThreeCliantPhoto {
+    width: 81%;
+    border-radius: 50%;
+}
+.ThreeCliantPhoto img{
+    width:100%;
+    border-radius: 50%;
+}
+.ThreeCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(-4deg);
+    transition: all .3s ;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg4 {
+    position: absolute;
+    top: 239px;
+    left: 160px;
+}
+
+.FourCliantPhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.FourCliantPhoto img{
+    width: 100%;
+    border-radius: 50%;
+}
+.FourCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(-7deg);
+    transition: all .3s ;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg5 {
+    position: absolute;
+    top: 339px;
+    left: 129px;
+}
+
+.FiveCliantPhoto {
+    width: 92%;
+    border-radius: 50%;
+}
+
+.FiveCliantPhoto img{
+    width:100%;
+    border-radius: 50%;
+}
+.FiveCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(7deg);
+    transition: all .3s ;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg6 {
+    position: absolute;
+    top: 188px;
+    left: 322px;
+}
+
+.SixCliantPhoto {
+    width: 99%;
+    border-radius: 50%;
+}
+
+
+.SixCliantPhoto img{
+    width:100%;
+    border-radius: 50%;
+}
+.SixCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(-5deg);
+    transition: all .3s ;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg7 {
+    position: absolute;
+    top: 308px;
+    left: 253px;
+}
+
+.SevenCliantPhoto {
+    width: 90%;
+    border-radius: 50%;
+}
+.SevenCliantPhoto img{
+      width: 100%;
+      border-radius: 50%;
+}
+.SevenCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(5deg);
+    transition: all .3s ;
+}
+/* Cliant review Section Ends here */
+/* FAQ section starts here */
+
+.faqsection {
+}
+
+.faqDIv{
+    padding: 80px 0px 50px 0px;
+}
+
+.faqHeader {
+    text-align: center;
+}
+
+.faqHone {
+    margin-bottom: 20px;
+
+}
+.faqHone h1{
+    font-size: 18px;
+    font-weight:700 ;
+
+}
+.faqPone {
+    width: 60%;
+  
+    margin: 0 auto;
+}
+.faqPone p{
+    font-size: 10px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+.QuestionOne {
+    padding: 30px 30px 30px 30px;
+    background-color: #f5f7fa;
+    margin-bottom: 8px;
+}
+.QuestionOne h4{
+    color: #242f51;
+    font-size: 12px;
+    margin-bottom: 28px;
+}
+.QuestionOne p{
+    font-size: 10px;
+    opacity: 0.6;
+    margin-bottom: 8px;
+    line-height: 12px;
+}
+
+.question1 {
+    padding: 10px 20px;
+    background-color: #f5f7fa;
+    margin-bottom: 8px;
+}
+
+.miniH4{
+}
+.miniH4 h4{
+    color: #242f51;
+    font-size: 12px;
+}
+
+.miniAddition{
+    width: 2%;
+}
+.miniAddition a img{
+    width: 100%;
+}
+
+.question1 {
+}
+
+/* FAQ section ends here */
+/* Download now section starts here */
+
+.downloadNOwArea {
+}
+.DownloadNowDIv{
+    padding: 80px 0px;
+    position:relative;
+   z-index:1;
+}
+.DownloadNowDIv::before{
+    content: '';
+    position: absolute;
+    height: 94%;
+    width: 58%;
+    z-index: -1;
+    background-image: url(images/downloadNowBgLare.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    right: 0;
+}
+.DownloadNowText {
+    width: 38%;
+    margin-left: 118px;
+}
+.DownloadNowText h1{
+    font-size: 25px;
+    margin-bottom: 17px;
+
+}
+.DownloadNowText p{
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+.DownloadLinks {
+    width: 38%;
+    margin-left: 119px;
+}
+
+.GplayLogo{
+    padding: 5px;
+    margin-left: 3px;
+}
+.GplayLogo img:hover{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}
+
+.AppstoreLogo{
+    padding: 5px;
+    margin-left: 10px;
+}
+.AppstoreLogo img:hover{
+     box-shadow: 0px 0px 5px black;
+     border-radius: 5px;
+}
+/* Download now section ends here */
+
+/* footer section Starts here */
+
+.footerArea {
+    padding: 50px 50px;
+    background-color: #09142e;
+    text-align: center;
+    position:relative;
+   z-index:1
+}
+.footerArea::before{
+    content: '';
+    position: absolute;
+    height: 13%;
+    width: 49%;
+    z-index: -1;
+    background-image: url(images/footerDottedBg.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    top: 6px;
+    right: -23px;
+}
+
+.applogo {
+
+    margin-bottom: 20px;
+}
+
+.footerMenu {
+    margin-bottom: 20px;
+}
+.footerMenu ul li a{
+    color: #ffffff;
+    font-size: 9px;
+    margin: 0px 8px;
+}
+.footerMenu ul li a:hover{
+    color: #fcae61;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+.Sociallogo{
+    width: 3%;
+    display:inline-block;
+    margin: 0 5px;
+}
+.social img{
+    width:100%;
+}
+.social img:hover{
+    filter: invert();
+}
+
+/* footer section ends here */

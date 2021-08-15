@@ -1,0 +1,1121 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{font-family: 'Poppins', sans-serif;}
+.fl{float:left;}
+.fr{float: right;}
+.fix{overflow: hidden;}
+h1{ font-size: 3em;color: #242f51;}
+p{ font-size: 1em; color: #242f51;line-height: 1.8em;}
+h2{font-size: 2.5em;color: #242f51;}
+h4{font-size: 1.5em;color: #242f51;}
+ul li{list-style: none;display: inline-block;}
+ul li a{text-decoration: none ; font-size: 1em; color: #242f51; }
+a{text-decoration: none;font-size: 1em;}
+/* img{ width: 100%;} */
+/* for initail sizing */
+.fullSize{width: 100%;}
+.WidthHundread{width: 100%;}
+.widthFifty{width:45%;margin-left: 2.5% ;margin-right: 2.5%;}
+.widthThirty{width: 30%;margin-left: 1.5% ;margin-right: 1.5%;}
+.widthTwentyfive{width:22%;margin-left: 1.5% ;margin-right: 1.5%;}
+/* global css ends here */
+
+/* sizing css starts here */
+.container{width: 100%;margin:0 auto;}
+.structure{width: 80%;margin:0 auto;}
+/* sizing css ends here */
+
+/* header section srarts here */
+.headerArea {
+    position: relative;
+    z-index: 1;
+}
+.headerArea::before {
+    content: '';
+    position: absolute;
+    height: 21%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(images/headerBuildingBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+}
+.headerDottedBg{
+    position: relative;
+    z-index: 1;
+}
+.headerDottedBg::before{
+    content: '';
+    position: absolute;
+    height: 77%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(images/headerDottedBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 43px;
+    left: 0px;
+}
+
+
+
+.navbar {
+    padding: 70px 90px 36px 90px;
+}
+.logo {
+    width: 22%;
+}
+.logoIMg {
+    width: 40%;
+    margin-left: 65px;
+}
+.navMenu {     
+    width: 63%;
+}
+.navMenu ul{ 
+    text-align: right;
+}
+.navMenu ul li a {
+    margin: 0px 10px 0px 10px;
+    color: #242f51;
+    font-weight: 600;
+}
+.navMenu ul li a:hover {
+    color: #feaa25;
+}
+
+.tryForFreeBtn {
+    width: 10%;
+}
+.tryForFreeBtn a {
+    padding: 17px 24px;
+    background-color: #2500f9;
+    color: #ffffff;
+    border-radius: 26px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.tryForFreeBtn a:hover{
+     box-shadow: 0px 0px 15px #9d9d9d;
+}
+/* -------/-------- */
+.bannerArea{
+    padding: 100px 0px 100px 0px;
+ 
+}
+.baneerHeading {
+    position: relative;
+    margin-top: 250px;
+    margin-left: 135px;
+    width: 44%;
+}
+
+.headerAward {
+    background-color: #e2eaed;
+    padding: 3px 0px 3px 34px;
+    border-radius: 26px;
+    width: 57%;
+    margin-bottom: 1.2em;
+}
+.rewarfLogo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: none;
+    width: 5%;
+    display: inline-block;
+}
+.rewardText{
+    color: #242f51;
+    font-weight: 600;
+    font-size: .9em;
+}
+.BannerHeadText {
+    width: 77%;
+    margin-bottom: 20px;
+}
+.BannerHeadText h1{
+    color: #242f51;
+    margin-bottom: 14px;
+    margin-top: 10px;
+}
+.BannerHeadText p{
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.bannerButtons {
+    
+}
+.b_bUtton {
+    color: #2500f9;
+    font-size: 12px;
+    padding: 9px 22px;
+    font-weight: 600;
+    border-radius: 23px;
+}
+.b_bUtton:hover ,.bannerBtnActive {
+    padding: 9px 22px;
+    background-color: #2500f9;
+    color: #ffffff;
+    border-radius: 23px;
+    font-size: 12px;
+    transition: all .3s ease-in;
+    box-shadow: 0px 0px 15px #9d9d9d;
+}
+
+.bannerImg {
+    width: 37%;
+    padding: 9px;
+}
+
+.bannerImage {
+    width: 86%;
+    box-shadow: 0px 0px 10px #e0e1e1;
+    border-bottom-left-radius: 73px;
+    border-bottom-right-radius: 72px;
+    border-top-right-radius: 59px;
+    border-top-left-radius: 61px;
+}
+.bannerImage img{
+    width: 100%;
+    border-radius: 9px;
+}
+/* header section sends here */
+/* <!-- trusted company section starts here --> */
+    .TrustedCompanySection {
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    }
+    .trustedHeading{
+           margin-top: 50px;
+           margin-bottom: 70px;
+    }
+    .trustedHeading a{
+        font-size: 1em;
+        color: #242f51;
+        font-weight: 700;
+    }
+    .TrustedCompanies{
+        width: 75%;
+        margin-inline: auto;
+    }
+
+    .companiLogos {
+        width: 13%;
+        padding: 3px 7px 2px 7px;
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+    .trustedComo1{
+        padding-top: 27px;
+    }
+    .trustedComo2{
+
+    }
+    .trustedComo3{
+        margin-top: 20px;
+    }
+    .trustedComo4{
+
+    }
+    .trustedComo5{
+        margin-top: 23px;
+    }
+/* <!-- trusted company section ends here --> */
+
+/* Awsome App Fetures start here */
+.AwsomeAppsFeturesArea {
+    padding-top: 150px;
+}
+
+.AwsomeAppIMg {
+}
+
+.appSectionMainIMg {
+    width: 40%;
+    margin: 0px 0px 0px 80px;
+}
+.toResizeAppSectionImg {
+    border-radius: 26px;
+    border-radius: 26px;
+    width: 89%;
+    margin-left: 6em;
+    /* clip-path: polygon(3% 14%, 63% 3%, 94% 85%, 34% 95%); */
+}
+.toResizeAppSectionImg img{
+    border-radius: 26px;
+}
+.awsomeAppTexts {
+    width: 42%;
+    margin: 65px 91px 0px 0px;
+}
+
+.AwSmhone {
+    width: 50%;
+    margin-bottom: 8px;
+}
+.AwSmhone h4{
+    font-size: 2em;
+    font-weight: 700;
+}
+.AwSmoneP {
+    width: 65%;
+    line-height: 17px;
+    font-weight: 100;
+}
+.appPortfolio{
+    margin: 30px 0px 30px 0px;
+}
+
+.fetursLogo {
+    margin-bottom: 1em;
+    width: 10%;
+    margin-right: 2em;
+    margin-top: .5em;
+}
+.appDescription {
+    width: 50%;
+}
+
+.appDescriptionHead {
+}
+.appDescriptionHead a{
+
+}
+.appDescriptionHead p{
+   
+    opacity: 0.6;
+}
+
+
+/* Awsome App Fetures ends here */
+/* jackpot section starts here  */
+
+.jackpotArea{
+    padding: 50px 0px 50px 0px;
+}
+.JackpotHoneSection {
+    width: 36%;
+    margin-left: 10em;
+    border-right: 1px solid #e0e1e1;
+}
+.jakpotHone {
+    width: 74%;
+    margin-left: 5.6em;
+}
+.jakpotHone h1{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.jackpotDescription {
+    width: 40%;
+    margin-left: 20px;
+}
+.jackpotDescription p{
+     opacity: 0.6;
+}
+
+/* jackpot section ends here  */
+/* auto Pay section starts here */
+.payOutDIvs{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 85%;
+    margin-left: 11em;
+}
+.appDescriptionHeadCpy {
+   
+  }
+  
+  .appPortfolioCpy.widthThirty {
+    margin: 0px 39px 0px 30px;
+    width: 23%;
+}
+  
+  .featursLogo {
+    margin-bottom: 1em;
+    width: 26%;
+    margin-right: 2em;
+    margin-top: .5em;
+  }
+  
+  .appDescriptionCpy {
+  }
+  
+  .appDescriptionHeadCpy {
+  }
+  .appDescriptionHeadCpy a{
+      font-weight: 600;
+  }
+  .appDescriptionHeadCpy p{
+       opacity: 0.6;
+      margin-top: 7px;
+  }
+/* auto Pay section ends here */
+/* promo section starts here */
+.promoSection{
+    padding: 50px 0px 50px 0px;
+}
+.promoIMageDiv{
+    width: 35%;
+    margin-left: 118px;
+}
+.PromodivImg{
+    width: 92%;
+    margin-left: 7em;
+}
+.PromoText {
+    margin-top: 7.8em;
+    margin-left: 6.6em;
+}
+
+.promoHone {
+    width: 48%;
+    margin-bottom: 15px;
+}
+.promoHone h1{
+    font-size: 1.9em;
+}
+.prormoParaGraph {
+    width: 69%;
+    margin-bottom: 30px;
+}
+.prormoParaGraph p{
+    font-weight: 100;
+    opacity: 0.6;
+    
+}
+.promoBtn {
+}
+.promoBtn a{
+    padding: 13px 27px;
+    background-color: #2500f9;
+    color: #ffffff;
+    border-radius: 26px;
+    font-size: .7em;
+    font-weight: 700;
+}
+.promoBtn a:hover{
+
+    transition: all .1s ease-in;
+    box-shadow: 0px 0px 15px #9d9d9d;
+}
+/* promo section ends here */
+/* <!-- why our app section starts here --> */
+.whyOurAppSection{
+    padding: 80px 0px 50px 0px;
+ 
+}
+
+.whyOurAppHeading {
+    text-align: center;
+}
+
+.ourAppHone {
+}
+.ourAppHone h1{
+    
+    font-size: 20px;
+}
+
+.ourAppPone {
+}
+.ourAppPone P{
+   
+    opacity: 0.6;
+}
+
+.ourAppSpecs {
+    margin: 28px 0px 28px 0px ;
+    padding-left: 12em;
+}
+
+.ourAppSpecsMiniBox {
+    text-align: center;
+    width: 17%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.SpecsLogo {
+    width: 31%;
+    margin: 0 auto;
+    margin-bottom: .8em;
+}
+.SpecsLogo a{
+    text-decoration: none;
+   
+}
+.SpecsLogo a img{
+    width: 100%;
+}
+.ourAppSpecsMiniBox h4{
+    margin-bottom: 5px;
+}
+.ourAppSpecsMiniBox h4 a{
+   color: #242f51;
+   font-size: .6em;
+}
+.ourAppSpecsMiniBox p{
+     font-weight: 100;
+     font-size: 10px;
+     opacity: 0.6;
+}
+/* <!-- why our app ends ends here --> */
+/* <!-- Ultimate fetures that we have build sections Starts --> */
+
+.ultimateFeturesSectons {
+      padding: 100px 0px 30px 0px;
+}
+
+.ultimateFeturesTextArea{
+    width: 42%;
+    margin-left: 14.5%;
+    margin-right: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.ultimateMainHeading {
+}
+
+.ultimateHone {
+    width: 40%;
+    margin-bottom: .7em;
+}
+.ultimateHone h1{
+    font-size: 1.8em;
+}
+
+.ultimatePone {
+    width: 55%;
+    margin-bottom: 1em;
+}
+.ultimatePone p{
+    font-size: .7em;
+   font-weight: 100;
+}
+.ultimateFeaturesMiniDivSection {
+}
+.ultimateAppfeturesCart {
+    margin: 33px 32px 34px 0px;
+    width: 40%;
+}
+.ultimateSpecsLogo {
+    width: 22%;
+    margin-bottom: .8em;
+}
+.ultimateSpecsLogo a img{
+    width: 100%;
+}
+.ultimateAppfeturesCart h4 {
+    margin-bottom: 8px;
+}
+.ultimateAppfeturesCart h4 a{
+    color: #242f51;
+    font-size: .7em;
+}
+.ultimateAppfeturesCart p{ 
+    font-size: 10px;
+    font-weight: 100;
+    opacity: 0.6;
+}
+.ultimateAreaBtn{
+    margin-top: 1em;
+}
+.ultimateAreaBtn a{
+    font-size: .7em;
+    padding: 12px 35px;
+}
+
+.ultimateFeturesBgImg {
+    width: 43%;
+    margin: 0px 0px 0px 0px;
+}
+
+.ResizableUltimateAreaBg {
+    width: 100%;
+}
+
+
+/* <!-- Ultimate fetures that we have build sections Ends --> */
+/* pricing Section Starts here */
+
+.pricingSection {
+    border-bottom: 1px solid #e2dddd;
+    padding: 40px 0px 40px 0px;
+}
+
+.PricingDiv {
+}
+
+.PricingHeading {
+    text-align: center;
+}
+
+.pricingHone {
+    width: 40%;
+    margin: 15px auto;
+    margin-bottom: 2em;
+}
+.pricingHone h1{
+    font-size: 2em;
+}
+.pricingPone {
+    opacity: 0.6;
+    width: 37%;
+    margin-inline: auto;
+    margin-bottom: 2em;
+}
+.pricingPone p{
+  font-size: 10px;
+}
+
+.timeDurationButtons {
+    margin: 20px auto;
+    padding: 6px 0px 7px 0px;;
+    width: 17.8%;
+    border-radius: 26px;
+    box-shadow: 0px 0px 6px #9d9d9d;
+}
+.priceActive{
+    margin-right: .9em;
+}
+.Pbtn {
+    padding: 0px 0px ;
+  display: inline-block;
+ 
+}
+.Pbtn a{
+    padding: 9px 23px 9px 27px;
+    font-size: .81em;
+    border-radius: 26px;
+}
+.Pbtn a:hover {
+    background-color: #2500f9;
+    color: #ffffff;
+}
+
+.pricingCarts{
+    padding: 10px 0px;
+}
+
+.pCart{
+    width: 18%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 2px #9d9d9d;
+}
+
+.cartHeadingPart {
+    padding: 24px 0px 25px 0px;
+    background-color: #f7f9fa;
+    margin-bottom: 1em;
+    text-align: center;
+    box-shadow: 0px 0px 1px #9d9d9d;
+}
+.cartHeadingPart a{   
+     color: #242f51;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Dollar {
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+.DollerTExt{
+    display: inline-block;
+    font-size: 10px;
+    opacity: 0.6;
+}
+.CartExtantions {
+}
+
+.facelitiesSectionCart {
+    text-align: center;
+}
+.facelitiesSectionCart a{
+    text-decoration: none;
+    font-size: .8em;
+    color: #242f51;
+    opacity: 0.6;
+    line-height: 2em;
+}
+.PriceCartDownBtn{
+    width: 90%;
+    margin: 30px auto;
+}
+.PriceCartDownBtn a{
+    background-color: rgb(37, 0, 249);
+    margin-left: 37px;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    padding: 10px 25px;
+    font-size: .7em;
+    box-shadow: rgb(157 157 157) 0px 0px 12px;
+}
+.forSellOptions{
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+.forSellOptions a{
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color:#2500f9
+}
+.toMarginone {
+    margin: 0px 51px 0px 375px;
+}
+.toMarginTwo{
+    margin :0px 0px 0px 0px;
+}
+
+
+.cartFooterATBT {
+}
+/* pricing Section ends here */
+/* Cliant review Section Starts here */
+
+.cliantReviewSection {
+    padding: 100px 0px 100px 0px;
+    position:relative;
+     z-index:1;
+}
+.cliantReviewSection::before{
+    content: '';
+    position: absolute;
+    height: 65%;
+    width: 52%;
+    z-index: -1;
+    background-image: url(images/ourCliantMapBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 2.8em;
+}
+.cliantSectionDiv {
+    padding: 50px 0px 50px 0px;
+}
+
+.cliantSectionHeading {
+    width: 50%;
+}
+
+.CliantRHone {
+    margin-bottom: 1.2em;
+    width: 70%;
+}
+.CliantRHone h1{
+    font-size: 2.1em;
+}
+.CliantPRone {
+    margin-bottom: 1.2em;
+    width: 70%;
+}
+.CliantPRone p{
+    font-size: .8em;
+    opacity: 0.6;
+}
+
+.starsOfRating {
+    margin-bottom: 1.2em;
+    width: 18%;
+}
+.starsOfRating a img{
+   width: 100%;
+}
+
+.CliantRHFourone {
+    margin-bottom: 2em;
+}
+.CliantRHFourone h4{  
+      font-size: .9em;
+}
+
+.CliantRpTwo {
+    margin-bottom: 2em;
+    width: 90%;
+}
+.CliantRpTwo p{
+    font-size: .8em;
+    opacity: 0.6;
+}
+.OurCeo {
+}
+
+.ceoImg {
+    margin-right: .5em;
+}
+
+.ceoPhoto {
+    width: 116%;
+}
+.ceoPhoto a img{
+    width: 100%;
+}
+.ceoInfo {
+    margin-left: 8px;
+}
+.ceaoNAme {
+    margin-top: .3em;
+}
+.ceaoNAme a{
+    font-size: .7em;
+    color: #242f51;
+}
+
+.ceaoDesignation {
+}
+.ceaoDesignation p{
+    font-size: .63em;
+    opacity: 0.6;
+}
+.SLiderArrow{
+    margin-top: 7px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg1 {
+    position: absolute;
+    top: 276px;
+    left: 74px;
+}
+
+.OneCliantPhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+.OneCliantPhoto img:hover{
+      box-shadow: 0px 0px 5px black;
+      transform: rotate(6deg);
+    transition: all .3s ;
+}
+
+.OneCliantPhoto img{
+   width:100%; 
+   border-radius: 50%;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg2 {
+    position: absolute;
+    top: 402px;
+    left: 127px;
+}
+
+.TwoCliantPhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.TwoCliantPhoto img{
+    width: 100%;
+    border-radius: 50%;
+}
+.TwoCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(4deg);
+    transition: all .3s ;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg3 {
+    position: absolute;
+    top: 231px;
+    left: 250px;
+}
+
+.ThreeCliantPhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+.ThreeCliantPhoto img{
+    width:100%;
+    border-radius: 50%;
+}
+.ThreeCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(-4deg);
+    transition: all .3s ;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg4 {
+    position: absolute;
+    top: 347px;
+    left: 330px;
+}
+
+.FourCliantPhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.FourCliantPhoto img{
+    width: 100%;
+    border-radius: 50%;
+}
+.FourCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(-7deg);
+    transition: all .3s ;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg5 {
+    position: absolute;
+    top: 503px;
+    left: 376px;
+}
+
+.FiveCliantPhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.FiveCliantPhoto img{
+    width:100%;
+    border-radius: 50%;
+}
+.FiveCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(7deg);
+    transition: all .3s ;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg6 {
+    position: absolute;
+    top: 263px;
+    left: 676px;
+}
+
+.SixCliantPhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.SixCliantPhoto img{
+    width:100%;
+    border-radius: 50%;
+}
+.SixCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(-5deg);
+    transition: all .3s ;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ */
+.cliantIMg7 {
+    position: absolute;
+    top: 442px;
+    left: 585px;
+}
+
+.SevenCliantPhoto {
+    width: 100%;
+    border-radius: 50%;
+}
+.SevenCliantPhoto img{
+      width: 100%;
+      border-radius: 50%;
+}
+.SevenCliantPhoto img:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: rotate(5deg);
+    transition: all .3s ;
+}
+/* Cliant review Section Ends here */
+/* FAQ section starts here */
+
+.faqsection {  
+    border-bottom: 1px solid #e2dddd;
+}
+.faqDIv{
+    padding: 80px 0px 50px 0px;
+}
+
+.faqHeader {
+    text-align: center;
+}
+
+.faqHone {
+    margin-bottom: 20px;
+
+}
+.faqHone h1{
+    font-size: 2em;
+    font-weight:700 ;
+
+}
+.faqPone {
+    width: 60%;
+  
+    margin: 0 auto;
+}
+.faqPone p{
+    opacity: 0.6;
+    margin-bottom: 30px;
+}
+.QuestionOne {
+    padding: 30px 30px 30px 30px;
+    background-color: #f5f7fa;
+    margin-bottom: 8px;
+    margin-inline: auto;
+    width: 75%;
+}
+.QuestionOne h4{
+    color: #242f51;
+    font-size: 1.2em;
+    margin-bottom: 28px;
+}
+.QuestionOne p{
+    font-size: .8em;
+    margin-bottom: 8px;
+    line-height: 1.7em;
+}
+
+.question1 {
+    padding: 13px 29px 3px 29px;
+    background-color: #f5f7fa;
+    margin-bottom: 8px;
+    width: 75%;
+    margin-inline: auto;
+}
+
+.miniH4{
+}
+.miniH4 h4{
+    color: #242f51;
+    font-size: 12px;
+}
+
+.miniAddition{
+    width: 2%;
+}
+.miniAddition a img{
+    width: 100%;
+}
+
+.question1 {
+}
+
+/* FAQ section ends here */
+/* Download now section starts here */
+
+.downloadNOwArea {
+}
+.DownloadNowDIv{
+    padding: 200px 0px 200px 0px;
+    position:relative;
+   z-index:1;
+}
+.DownloadNowDIv::before{
+    content: '';
+    position: absolute;
+    height: 82%;
+    width: 64%;
+    z-index: -1;
+    background-image: url(images/downloadNowBgLare.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    right: 0;
+}
+.DownloadNowText {
+    width: 38%;
+    margin-left: 118px;
+}
+.DownloadNowText h1{
+    font-size: 2.5em;
+    margin-bottom: 17px;
+
+}
+.DownloadNowText p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.DownloadLinks {
+    width: 38%;
+    margin-left: 119px;
+}
+
+.GplayLogo{
+    padding: 5px;
+    width: 25%;
+}
+.GplayLogo img:hover{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}
+
+.AppstoreLogo{
+    padding: 5px;
+    margin-left: 3px;
+    width: 25%;
+}
+.AppstoreLogo img:hover{
+     box-shadow: 0px 0px 5px black;
+     border-radius: 5px;
+}
+/* Download now section ends here */
+
+/* footer section Starts here */
+
+.footerArea {
+    padding: 60px 50px;
+    background-color: #09142e;
+    text-align: center;
+    position:relative;
+   z-index:1
+}
+.footerArea::before{
+    content: '';
+    position: absolute;
+    height: 20%;
+    width: 63%;
+    z-index: -1;
+    background-image: url(images/footerDottedBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 6px;
+    right: 36px;
+}
+
+.applogo {
+    width: 10%;
+    margin-inline: auto;
+    margin-bottom: 1.2em;
+}
+
+.footerMenu {
+    margin-bottom: 2em;
+}
+.footerMenu ul li a{
+    color: #ffffff;
+    font-size: .8em;
+    margin: 0px 12px;
+}
+.footerMenu ul li a:hover{
+    color: #fcae61;
+}
+
+.social {
+    margin-bottom: 1.2em;
+}
+.Sociallogo{
+    width: 3%;
+    display:inline-block;
+    margin: 0 5px;
+}
+.social img{
+    width:100%;
+}
+.social img:hover{
+    filter: invert();
+}
+
+/* footer section ends here */
